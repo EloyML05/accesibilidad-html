@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio - Jessy Doe</title>
+    <link rel="stylesheet" href="../static/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../static/img/logo.png" alt="Jessy Doe Logo" />
+      <nav  aria-label="Main navigation">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Clients</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Menu navigation">
+        <a href="#" aria-label="Toggle menu">☰</a>
+      </nav>
+    </header>
+
+    <aside id="dark-mode" aria-label="Toggle dark mode">
+      <a href="#">
+        <img
+          src="../static/img/media-luna.png"
+          alt="Toggle dark mode"
+          aria-hidden="true"
+        />
+      </a>
+    </aside>
+
+    <aside class="follow-me" aria-labelledby="follow-heading">
+      <h2 id="follow-heading">Follow Me</h2>
+      <hr />
+      <div>
+        <ul>
+          <li>
+            <a href="#" aria-label="Visit my Facebook profile">
+              <img src="../static/img/Facebook.svg" alt="Facebook icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Visit my Twitter profile">
+              <img src="../static/img/Twitter.svg" alt="Twitter icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Visit my GitHub profile">
+              <img src="../static/img/Github.svg" alt="GitHub icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Visit my LinkedIn profile">
+              <img src="../static/img/Linkedin.svg" alt="LinkedIn icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main >
+      <!-- Hero Section -->
+      <section id="hero" class="hero" aria-labelledby="hero-heading">
+        <div>
+          <h1 id="hero-heading">I'M <span>Jessy Doe</span></h1>
+          <p><span> A</span> UI Designer.</p>
+          <p>
+            In a professional context it often happens that private clients
+            order a publication to be made
+          </p>
+          <a href="#" class="btn" aria-label="Download my CV">Download CV</a>
+        </div>
+
+        <img
+          src="../static/img/hero.png"
+          alt="Jessy Doe smiling while working on a laptop"
+        />
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" class="about-me" aria-labelledby="about-heading">
+        <img
+          src="../static/img/office.png"
+          alt="Jessy Doe in an office environment"
+        />
+        <article aria-labelledby="about-heading">
+          <h2 id="about-heading">About Me</h2>
+          <p><span> UI/UX</span> Designer & Web Developer</p>
+          <div>
+            <ul>
+              <li><span>Birthday:</span> 1 April 1990</li>
+              <li><span>Website:</span> www.retrina.com</li>
+              <li><span>Phone:</span> +123 456 7890</li>
+              <li><span>City:</span> New York, USA</li>
+            </ul>
+            <ul>
+              <li><span>Age:</span> 30</li>
+              <li><span>Degree:</span> Master</li>
+              <li><span>Email:</span> email@example.com</li>
+              <li><span>Freelance:</span> Available</li>
+            </ul>
+          </div>
+          <div>
+            <a href="#" aria-label="Download my CV">Download CV</a>
+            <a href="#" aria-label="Hire me for your project">Hire Me</a>
+          </div>
+        </article>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills" aria-labelledby="skills-heading">
+        <p>Level of knowledge</p>
+        <h2 id="skills-heading">My Skills</h2>
+        <div>
+          <ul>
+            <li>
+              <p>HTML:</p>
+              <p>95%</p>
+              <div role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                <div ></div>
+              </div>
+            </li>
+            <li>
+              <p>CSS:</p>
+              <p>85%</p>
+              <div role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div ></div>
+              </div>
+            </li>
+            <li>
+              <p>PHP:</p>
+              <p>80%</p>
+              <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div></div>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p>Angular:</p>
+              <p>90%</p>
+              <div role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div></div>
+              </div>
+            </li>
+            <li>
+              <p>JavaScript:</p>
+              <p>95%</p>
+              <div role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                <div></div>
+              </div>
+            </li>
+            <li>
+              <p>WordPress:</p>
+              <p>70%</p>
+              <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="services" class="services" aria-labelledby="services-heading">
+        <p>get support for the services</p>
+        <h2 id="services-heading">My Services</h2>
+        <ul class="services-list">
+          <li>
+            <article aria-labelledby="service-graphic-design">
+              <h3 id="service-graphic-design">Graphic Design</h3>
+              <p>
+                In professional context it often happens that private clients
+                order a publication to be made.
+              </p>
+            </article>
+          </li>
+      
+          <li>
+            <article aria-labelledby="service-bootstrap-support">
+              <h3 id="service-bootstrap-support">Bootstrap Support</h3>
+              <p>
+                In professional context it often happens that private clients
+                order a publication to be made.
+              </p>
+            </article>
+          </li>
+      
+          <li>
+            <article aria-labelledby="service-portfolio-works">
+              <h3 id="service-portfolio-works">Portfolio of Works</h3>
+              <p>
+                In professional context it often happens that private clients
+                order a publication to be made.
+              </p>
+            </article>
+          </li>
+      
+          <li>
+            <article aria-labelledby="service-responsive-theme">
+              <h3 id="service-responsive-theme">Responsive Theme</h3>
+              <p>
+                In professional context it often happens that private clients
+                order a publication to be made.
+              </p>
+            </article>
+          </li>
+      
+          <li >
+            <article aria-labelledby="service-go-beyond-limits">
+              <h3 id="service-go-beyond-limits">Go Beyond Limits</h3>
+              <p>
+                In professional context it often happens that private clients
+                order a publication to be made.
+              </p>
+            </article>
+          </li>
+      
+          <li>
+            <article aria-labelledby="service-premium-slider">
+              <h3 id="service-premium-slider">Premium Slider</h3>
+              <p>
+                In professional context it often happens that private clients
+                order a publication to be made.
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+      
+        
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio" aria-labelledby="portfolio-heading">
+        <p>Awesome Works and enjoy</p>
+        <h2 id="portfolio-heading">My Portfolio</h2>
+
+        <ul role="tablist" aria-label="Portfolio Categories">
+          <li role="presentation"><a href="#" role="tab">All</a></li>
+          <li role="presentation"><a href="#" role="tab">Web Design</a></li>
+          <li role="presentation"><a href="#" role="tab">Mobile App</a></li>
+          <li role="presentation"><a href="#" role="tab">SEO</a></li>
+          <li role="presentation"><a href="#" role="tab">Graphic</a></li>
+        </ul>
+
+        <ul  aria-label="Portfolio Items">
+          <li>
+            <img src="../static/img/hologem.png" alt="Portfolio Project: Hologem" />
+          </li>
+          <li>
+            <img src="../static/img/musical_notes.png" alt="Portfolio Project: Musical Notes" />
+          </li>
+          <li>
+            <img src="../static/img/bocknotes.png" alt="Portfolio Project: Book Notes" />
+          </li>
+          <li>
+            <img src="../static/img/seewindow.png" alt="Portfolio Project: See Window" />
+          </li>
+          <li>
+            <img src="../static/img/Laptop.png" alt="Portfolio Project: Laptop" />
+          </li>
+          <li>
+            <img src="../static/img/world.png" alt="Portfolio Project: World" />
+          </li>
+        </ul>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials" aria-labelledby="testimonials-heading">
+        <p>What clients think about me</p>
+        <h2 id="testimonials-heading">Clients Say</h2>
+        <div>
+          <article aria-labelledby="testimonial-1">
+            <div>
+              <h3 id="testimonial-1"><span>John Doe,</span></h3>
+              <p>CEO Management</p>
+            </div>
+            <blockquote>
+              "In a professional context it often happens that private or
+              corporate clients order a publication to be made.In a
+              professional context it often happens that private or corporate
+              clients order a publication to be made."
+            </blockquote>
+          </article>
+          <article aria-labelledby="testimonial-2">
+            <div>
+              <h3 id="testimonial-2"><span>Mary Jane,</span></h3>
+              <p>Marketing Head</p>
+            </div>
+            <blockquote>
+                " In a professional context it often happens that private or
+                corporate clients corder a publication to be made.In a
+                professional context it often happens that private or corporate
+                clients corder a publication to be made. "            </blockquote>
+          </article>
+        </div>
+        <div class="marquer" aria-hidden="true">
+          <div></div>
+          <div></div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section id="blog" class="blog" aria-labelledby="blog-heading">
+        <p>Check out my blog Post</p>
+        <h2 id="blog-heading">Latest Blog</h2>
+        <div role="list">
+          <article aria-labelledby="blog-1">
+            <img src="../static/img/coffe-blue.png" alt="Blog post image: Coffee cup" />
+            <div>
+              <p>
+                <span class="date">June 20, 2020</span>
+                <span class="comments" aria-label="5 comments">5</span>
+              </p>
+              <h3 id="blog-1">Be Your Best Version</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="index2.html" >Read more <span style="display: none;"> "Be Your Best Version"</span></a>
+            </div>
+          </article>
+          <article aria-labelledby="blog-2">
+            <img src="../static/img/clock.png" alt="Blog post image: Clock" />
+            <div>
+              <p>
+                <span class="date">June 18, 2020</span>
+                <span class="comments" aria-label="3 comments">3</span>
+              </p>
+              <h3 id="blog-2">5 Tips in UI/UX Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="index2.html" >Read more  <span style="display: none;">"5 Tips in UI/UX Web Design"</span></a>
+            </div>
+          </article>
+          <article aria-labelledby="blog-3">
+            <img src="../static/img/vino.png" alt="Blog post image: Wine glass" />
+            <div>
+              <p>
+                <span class="date">June 12, 2020</span>
+                <span class="comments" aria-label="8 comments">8</span>
+              </p>
+              <h3 id="blog-3">Inspire Your Dreams</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="index2.html">Read more <span style="display: none;"> "Inspire Your Dreams" </span></a>
+            </div>
+          </article>
+          
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact" aria-labelledby="contact-heading">
+        <p>Feel free to contact me any time</p>
+        <h2 id="contact-heading">Get in Touch</h2>
+        <img src="../static/img/map.png" alt="Map showing office location" />
+        <ul>
+          <li>
+            <h3>Call Us On</h3>
+            <p>+123 456 7890</p>
+          </li>
+          <li>
+            <h3>Visit Office</h3>
+            <p>24 Street, New York, USA</p>
+          </li>
+          <li>
+            <h3>Email Us At</h3>
+            <p>sample@uone.com</p>
+          </li>
+        </ul>
+        <div>
+          <form aria-label="Contact Form">
+            <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              class="name"
+              name="name"
+              required
+              placeholder="Your Name*"
+            />
+          </div>
+<div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="email"
+              name="email"
+              required
+              placeholder="Your Email*"
+            />
+</div>
+            <label for="subject">Subject</label>
+            <input  
+              type="text"
+              id="subject"
+              class="subject"
+              name="subject"
+              required
+              placeholder="Your Subject*"
+            
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              class="message"
+              name="message"
+              placeholder="Your Message..."
+              rows="9"
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer >
+      <p>&copy; 2024 Jessy Doe. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
