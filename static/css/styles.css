@@ -723,7 +723,7 @@ main {
 
     img {
       background-color: var(--terciary-color);
-      min-width: 100%;
+      width: 100%;
       box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
       border-radius: 1rem;
 
